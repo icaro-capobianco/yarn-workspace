@@ -3,12 +3,21 @@
 	"workspaces": {
 		"packages": [
 			"packages/*"
+		],
+		"nohoist": [
+			"**/preact_cli/**",
+			"**preact_cli**",
+			"**/preact_cli",
+			"preact_cli",
+			"**/preact",
+			"**/preact-render-to-string"
 		]
 	},
 	"scripts": {
 		"build": ""
 	},
 	"dependencies": {
-		"lerna": "^3.22.1"
+		"lerna": "^3.22.1",
+		"typescript": "^4.1.5"
 	}
 }
