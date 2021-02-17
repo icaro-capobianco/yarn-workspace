@@ -2,7 +2,6 @@
 	"private": true,
 	"workspaces": {
 		"packages": [
-			"packages/*",
 			"libraries/*",
 			"projects/*"
 		],
@@ -16,7 +15,10 @@
 		]
 	},
 	"scripts": {
-		"build": ""
+		"watch": "yarn workspace watch",
+		"test": "yarn workspace test",
+		"build": "yarn workspace build",
+		"dev": "yarn workspace dev"
 	},
 	"dependencies": {
 		"lerna": "^3.22.1",

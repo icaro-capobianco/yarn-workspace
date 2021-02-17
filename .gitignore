@@ -1,6 +1,6 @@
 packages
-projects
-libraries
+projects/*
+libraries/*
 unstable
 node_modules
 yarn.lock
